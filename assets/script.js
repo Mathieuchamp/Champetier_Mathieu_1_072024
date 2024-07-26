@@ -46,7 +46,7 @@ selectionPoint[NumeroImage].classList.add("dot_selected")
 
 
 function updateSlide(){
-slideImage.src="./assets/images/slideshow/"+slides[NumeroImage].image
+slideImage.src="./assets/images/slideshow/"+slides[NumeroImage].image;
 slideText.innerHTML = slides[NumeroImage].tagLine
 
 for (let i = 0; i < dots.length; i++) {
